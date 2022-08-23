@@ -23,10 +23,10 @@ timezone: Europe/Stockholm
 
 title: Stefan Johansson                          # the main title
 
-tagline: Documenting IT related stuff I find   # it will display as the sub-title
+tagline: A blog about IT   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Documenting IT related stuff I find
+  A blog about IT
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://jost80.github.io'
