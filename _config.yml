@@ -26,7 +26,7 @@ title: Stefan Johansson                          # the main title
 tagline: Documenting IT related stuff I find   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Documenting IT related stuff I find
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://jost80.github.io'
