@@ -1,5 +1,5 @@
 ---
-title: Broken NFS permissions after migration
+title: Broken NTFS permissions after migration
 date: 2022-08-10 18:20:00 +/-TTTT
 categories: [Windows]
 tags: [ntfs]     # TAG names should always be lowercase
