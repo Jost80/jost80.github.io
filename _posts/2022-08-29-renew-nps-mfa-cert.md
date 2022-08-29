@@ -13,7 +13,7 @@ I blog post on [starwind.com](https://www.starwindsoftware.com/blog/transition-a
 
 The certificate is located in *[Certificates - Local Computer\Personal\Certificates]* and CN equals the tenant ID.
 
-To generate a new certificate the script AzureMfaNpsExtnConfigSetup.ps1 included in the MFA extension installation can be used. Sign in as tenant admin when prompted and press enter to keep the current tenant ID. Enter Y if you get prompted to allow NuGet.
+To generate a new certificate the script *AzureMfaNpsExtnConfigSetup.ps1* included in the MFA extension installation can be used. Sign in as tenant admin when prompted and press enter to keep the current tenant ID. Enter Y if you get prompted to allow NuGet.
 
 ```powershell
 PS C:\Program Files\Microsoft\AzureMfa\Config> .\AzureMfaNpsExtnConfigSetup.ps1
@@ -54,4 +54,5 @@ WARNING: Waiting for service 'Network Policy Server (ias)' to stop...
 WARNING: Waiting for service 'Network Policy Server (ias)' to stop...
 Configuration complete.  Press Enter to continue...:
 ```
+
 
