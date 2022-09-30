@@ -1,5 +1,5 @@
 ---
-title: Renew certificate for NPS Azure MFA extension
+title: Extension Attributes in Azure AD
 date: 2022-09-30 15:50:00 +/-TTTT
 categories: [Cloud]
 tags: [azure]     # TAG names should always be lowercase
