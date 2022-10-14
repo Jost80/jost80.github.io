@@ -6,7 +6,7 @@ tags: [azure]     # TAG names should always be lowercase
 ---
 I needed to create a dynamic group in AzureAD that contained only users created in the last X number of days and I did a test with extension attributes.
 
-First an application needed to be created in Azure AD under app registrations. For some reason the example codes I found to do this in powershell did not work but I was easy enough in the portal.
+First an application needed to be created in Azure AD under app registrations. For some reason the example codes I found to do this in powershell did not work but it was easy enough in the portal.
 
 After the application is created we can add a new property.
 ```powershell
