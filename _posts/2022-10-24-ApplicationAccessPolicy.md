@@ -1,6 +1,6 @@
 ---
 title: ApplicationAccessPolicy
-date: 2022-010-24 21:13:00 +/-TTTT
+date: 2022-10-24 21:13:00 +/-TTTT
 categories: [Cloud]
 tags: [azure]     # TAG names should always be lowercase
 ---
