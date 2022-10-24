@@ -15,7 +15,7 @@ New-AzureADApplicationExtensionProperty -ObjectId 6421aee036014ad0937ee5ac271eb8
 ```
 Then we can set a value as a test.
 ```powershell
-$UserId = "my.testuser@ourtennant.onmicrosoft.com"
+$UserId = "my.testuser@ourtenant.onmicrosoft.com"
 Set-AzureADUserExtension -ObjectId $UserId -ExtensionName "extension_6421aee036014ad0937ee5ac271eb831_NewEmployee" -ExtensionValue $false
 ```
 
