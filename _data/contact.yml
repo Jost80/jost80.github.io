@@ -19,6 +19,7 @@
   type: mastodon
   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
   url:  'https://twit.social/@jost80'                  # Fill with your mastodon account page
+
 -
   type: rss
   icon: 'fas fa-rss'
