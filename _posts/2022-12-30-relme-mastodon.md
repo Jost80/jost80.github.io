@@ -1,5 +1,5 @@
 ---
-title: Rel=me in Jekyll for mastodon
+title: Rel=Me in Jekyll for mastodon
 date: 2022-12-30 15:00:00 +/-TTTT
 categories: [Social]
 tags: [jekyll]     # TAG names should always be lowercase
@@ -29,9 +29,9 @@ Original code
     {% unless entry.noblank %}target="_blank" rel="noopener" {% endunless %}>
     <i class="{{ entry.icon }}"></i>
 </a>
-```
-{% endraw %}
 
+{% endraw %}
+```
 
 Quick and dirty fix
 ```
@@ -40,8 +40,7 @@ Quick and dirty fix
     {% unless entry.noblank %}target="_blank"{% unless entry.noblank %} rel="{% if entry.me %}me {% endif %}noopener"{% endunless %}{% endunless %}>
     <i class="{{ entry.icon }}"></i>
 </a>
-```
 {% endraw %}
-
+```
 
 Since I am not a web developer I assume there is better ways to do this and I would not recommend copying this solution without some more investigation.
