@@ -4,6 +4,8 @@ date: 2022-12-30 15:00:00 +/-TTTT
 categories: [Social]
 tags: [jekyll]     # TAG names should always be lowercase
 ---
+**Update: Chirpy theme has been updated so this hack is no longer needed**
+
 Mastodon, the federated social media network that has been getting lots of attention lately has a section in the user profile called profile metadata were you can for instance add a link to a webpage. If the page you link to has a rel="me" attribute it will display as verified on the profile page. I added a link to this blog on my page at [https://twit.social/@jost80](https://twit.social/@jost80) but Jekyll with the Chirpy theme did not add rel="me" by default. 
 
 Since I didn't find any documented solution I decided to try and hack it in myself. 
