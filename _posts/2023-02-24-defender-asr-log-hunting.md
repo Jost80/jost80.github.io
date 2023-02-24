@@ -11,7 +11,7 @@ When enabling ASR rules in Defender for Endpoint it is a good idea to start with
 
 Show all events for the last 30 days:
 
-```code
+```
 DeviceEvents
 | where Timestamp > ago(30d)
 | where ActionType startswith "Asr"
@@ -20,7 +20,7 @@ DeviceEvents
 
 And if we want to limit that to only audit events:
 
-```code
+```
 DeviceEvents
 | where Timestamp > ago(30d)
 | where ActionType startswith "Asr"
@@ -30,7 +30,7 @@ DeviceEvents
 
 To view events for a specific rule:
 
-```code
+```
 DeviceEvents
 | where Timestamp > ago(30d)
 | where ActionType startswith "AsrOfficeCommAppChildProcessAudited"
@@ -38,7 +38,7 @@ DeviceEvents
 
 And to get a list of all filenames that triggered the event:
 
-```code
+```
 DeviceEvents
 | where Timestamp > ago(30d)
 | where ActionType startswith "AsrOfficeCommAppChildProcessAudited"
