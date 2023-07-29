@@ -28,7 +28,7 @@ To setup Mosquitto using docker compose you can use the following (network setti
 
 Create a folder called mosquitto.
 In that folder create a file called docker-compose.yml with the following content.
-```
+```yaml
   mosquitto:
     container_name: mosquitto
     image: eclipse-mosquitto
@@ -55,7 +55,7 @@ allow_anonymous true
 Start the container by running ```docker-compose up -d``` in the folder with docker-compose.yml. The container should now be running (you can confirm that with ```sudo docker ps```).
 
 Next we need to enter the container and set up a password.
-```
+```bash
 # Enter the container
 sudo docker exec -it mosquitto sh
 # Set password for user hass
@@ -91,7 +91,7 @@ sensor:
 In Home Assistant you then add the MQTT integration and configure it with the IP, port, username and password required to connect to mosquitto.
 
 Then to test if its working
-```
+```bash
 sudo /usr/bin/rtl_433 -F "mqtt://127.0.0.1:1883,user=hass,pass=supersecret,devices=rtl_433[/id]" -T 5m
 ```
 rtl_433 should run for 5 minutes and send any data it captures to mosquitto. 
