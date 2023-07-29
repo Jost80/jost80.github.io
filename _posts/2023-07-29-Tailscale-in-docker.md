@@ -24,7 +24,6 @@ services:
             - TS_EXTRA_ARGS=--advertise-exit-node
             - TS_ROUTES=192.168.11.0/24
         image: tailscale/tailscale
-(END)
 ```
 
 If not already enabled you need to enable ip forwarding to make this work.
