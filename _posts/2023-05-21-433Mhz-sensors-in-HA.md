@@ -71,13 +71,13 @@ password_file /mosquitto/config/password.txt
 Next is to configure Home Assistant.
 
 Add this to configuration.yaml
-```
+```yaml
 mqtt: !include mqtt.yaml
 ```
 
 And create the file mqtt.yaml with the config for your sensors. Here is an example for the same sensor as the example output earlier (ID=135). This sensor reports temperature in celcius and the humidity.
 
-```
+```yaml
 sensor:
     - name: "Kitchen (temperature)"
       state_topic: "rtl_433/135/temperature_C"
