@@ -19,8 +19,8 @@ Thankfully both settings for DNS and guest network could be accessed through hid
 * [https://192.168.1.1/0.1/gui/#/mybox/dns/server](https://192.168.1.1/0.1/gui/#/mybox/dns/server)
 
 # Parental control: 
-* [http://192.168.1.1/0.1/gui/#/access-control/parental-control/planning](http://192.168.1.1/0.1/gui/#/access-control/parental-control/planning)
-* [http://192.168.1.1/0.1/gui/#/access-control/parental-control/filtering](http://192.168.1.1/0.1/gui/#/access-control/parental-control/filtering)
+* [https://192.168.1.1/0.1/gui/#/access-control/parental-control/planning](https://192.168.1.1/0.1/gui/#/access-control/parental-control/planning)
+* [https://192.168.1.1/0.1/gui/#/access-control/parental-control/filtering](https://192.168.1.1/0.1/gui/#/access-control/parental-control/filtering)
 
 
 There is also the possibility to access settings with XPATH but I haven't used that. Would like a way to add static routes so might explore this more in the future.
