@@ -22,7 +22,7 @@
 
 -
   type: bluesky
-  icon: 'fab fa-bluesky'   # icons powered by <https://fontawesome.com/>
+  icon: 'fa-brands fa-bluesky'   # icons powered by <https://fontawesome.com/>
   url:  'https://bsky.app/profile/jost80.bsky.social'                # Fill with your bluesky account page
 
 -
