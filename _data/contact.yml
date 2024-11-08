@@ -27,8 +27,12 @@
 
 -
   type: threads
-  icon: 'fab fa-threads'   # icons powered by <https://fontawesome.com/>
+  icon: 'fa-brands fa-threads'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.threads.net/@sjohansson80' # Fill with your threads page
+
+- type: reddit
+  icon: 'fa-brands fa-reddit'
+  url: 'https://www.reddit.com/user/Jost80/'                   # Fill with your Reddit profile link
 
 -
   type: rss
