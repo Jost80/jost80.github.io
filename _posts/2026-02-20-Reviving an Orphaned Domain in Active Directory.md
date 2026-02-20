@@ -26,7 +26,7 @@ repadmin /options fully_qualified_domain_name_(FQDN)_of_the_root_domain_controll
 ```
 
 
-On Child DC but running as enterprise admin (worked since trust was ok)
+On Child DC but running as enterprise admin (worked since trust was ok). In Microsofts documentation this should also be run on the root DC.
 ```bash
 repadmin /add CN=Configuration,DC=Domain_Name,DC=Domain_Name FQDN_of_the_root_domain_controller FQDN_of_the_child_domain_controller  
 ```
