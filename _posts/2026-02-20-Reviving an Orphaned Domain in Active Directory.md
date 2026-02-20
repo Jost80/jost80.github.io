@@ -1,6 +1,6 @@
 ---
 title: Reviving an Orphaned Domain in Active Directory
-date: 2026-02-26 14:21:00 +/-TTTT
+date: 2026-02-20 14:21:00 +/-TTTT
 categories: [Windows]
 tags: [AD]     # TAG names should always be lowercase
 ---
