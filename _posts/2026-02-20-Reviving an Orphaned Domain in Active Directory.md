@@ -1,6 +1,6 @@
 ---
 title: Reviving an Orphaned Domain in Active Directory
-date: 2026-02-26 14:21:00 +/-TTTT
+date: 2026-02-20 14:21:00 +/-TTTT
 categories: [Windows]
 tags: [AD]     # TAG names should always be lowercase
 ---
@@ -30,7 +30,6 @@ On Child DC but running as enterprise admin (worked since trust was ok)
 ```bash
 repadmin /add CN=Configuration,DC=Domain_Name,DC=Domain_Name FQDN_of_the_root_domain_controller FQDN_of_the_child_domain_controller  
 ```
-
 
 dcdiag showed some DNS related errors after this but with a reboot of DC’s the replication now checks out ok.
 
